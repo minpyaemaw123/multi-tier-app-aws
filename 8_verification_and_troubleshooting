@@ -1,0 +1,12 @@
+# Verification and Troubleshooting
+
+## Verification
+1. Login with WebApp username and password. 
+2. The WebApp is working
+3. Click on **RabbitMq**
+4. Click on **All Users** and then click on one of the users
+	
+	The data are loaded from RDS
+5. Click again on the same user again.
+	The user is loaded from Memcached
+	
