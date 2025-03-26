@@ -49,14 +49,15 @@ The application stack on AWS includes:
 https://github.com/hkhcoder/vprofile-project/tree/awsrefactor
 
 ## Flow of Execution
-1. [Key Pair and Security Group Setup](1_KeyPair_and_Security_Group_Setup.md)
-2. [RDS Setup](2_RDS_Setup.md)
-3. [Memcached Setup](3_Elastic_Cache_Setup.md)
-4. [Rabbit MQ Setup](4_Active_MQ_Setup.md)
-5. [Database Initialization](5_database_initialization.md)
-6. [Elastic Beanstalk Setup](6_bean_stalk_configuration.md)
-7. [Application Deployment](7_application_deployment.md)
-8. [CDN and DNS Configuration](8_dns_and_cdn.md)
+1. [Key Pair and Security Group Setup](01%20-%20Integrating_AWS_IAM_and_ECR_with_GitHub.md)
+2. [Terraform Code in IaC Vprofile Repo](02%20-%20Terraform_Code_in_iac-vprofile_repo.md)
+3. [Staging Workflow for Terraform Code by GitHub Actions](03%20-%20Staging_Workflow_for_Terraform_Code_by_GitHub_Actions.md)
+4. [Main Workflow for Terraform Code](04%20-%20Main_Workflow_for_Terraform_Code.md)
+5. [Integrating SonarCloud with GitHub](05%20-%20Integrating_SonarCloud_with_Github.md)
+6. [Workflow for APP Code](06%20-%20Workflow_for_APP_Code.md)
+7. [Build Image by Docker and Publish to ECR](07%20-%20Build_Image_by_Docker_and_Publish_to_ECR.md)
+8. [Using Helm Chart to Deploy Micro-service to EKS](08%20-%20Using_Helms_Charts_to_Deploy_Kubernetes_Definition_Files_to_EKS.md)
+9. [Verification](09%20-%20Verfication.md)
 
 
 
